@@ -6,7 +6,7 @@ services:
       - "3307:3307"
     container_name: mysql-container
     networks:
-      - user-movie-net
+      - springcloud-movie-net
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_USERNAME: user
@@ -16,7 +16,7 @@ services:
     image: mongo:latest
     container_name: mongo-container
     networks:
-      - user-movie-net
+      - springcloud-movie-net
     ports:
       - "27017:27017"
 
@@ -24,7 +24,7 @@ services:
     container_name: user-authentication-service
     build: UserAuthenticationService/
     networks:
-      - user-movie-net
+      - springcloud-movie-net
     ports:
       - "8086:8086"
     depends_on:
@@ -35,7 +35,7 @@ services:
     container_name: user-movie-service
     build: UserMovieService/
     networks:
-      - user-movie-net
+      - springcloud-movie-net
     ports:
       - "8081:8081"
     depends_on:
@@ -46,12 +46,12 @@ services:
       container_name: spring-cloud-api-gateway
       build: SpringCloudAPIGateway/
       networks:
-        - user-track-net
+        - springcloud-track-net
       ports:
         - "9000:9000"
 
-networks:
-  user-movie-net:
-    driver: bridge
+  networks:
+    springcloud-movie-net:
+      driver: bridge
 
 
