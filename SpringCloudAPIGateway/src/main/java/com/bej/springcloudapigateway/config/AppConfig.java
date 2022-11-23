@@ -18,11 +18,11 @@ public class AppConfig {
         return builder.routes()
                 .route(p -> p
                         .path("/api/v1/**")
-                        .uri("http://localhost:8086/"))
+                        .uri("http://user-authentication-service:8086/")) // use the name of the application in the uri
 
                  .route(p->p
                         .path("/api/v2/**")
-                        .uri("http://localhost:8081/"))
+                        .uri("http://user-movie-service:8081/"))
                 .build();
     }
 

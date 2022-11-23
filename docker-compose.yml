@@ -29,6 +29,7 @@ services:
       - "8086:8086"
     depends_on:
       - mysqlservice
+      - apigateway
     restart: always
 
   usermovieservice:
@@ -40,18 +41,19 @@ services:
       - "8081:8081"
     depends_on:
       - mongodbservice
+      - apigateway
     restart: always
 
-    apigateway:
-      container_name: spring-cloud-api-gateway
-      build: SpringCloudAPIGateway/
-      networks:
-        - springcloud-track-net
-      ports:
-        - "9000:9000"
+  apigateway:
+     container_name: spring-cloud-api-gateway
+     build: SpringCloudAPIGateway/
+     networks:
+       - springcloud-movie-net
+     ports:
+       - "9000:9000"
 
-  networks:
+networks:
     springcloud-movie-net:
-      driver: bridge
+        driver: bridge
 
 
