@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94d822d4-dfab-4e7a-bf2e-294c591db65a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/shoppingApplication/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingApplication/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAPIGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/java/com/bej/springcloudapigateway/SpringCloudApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/java/com/niit/springcloudapigateway/SpringCloudApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/java/com/bej/springcloudapigateway/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/java/com/niit/springcloudapigateway/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAPIGateway/src/test/java/com/bej/springcloudapigateway/SpringCloudApiGatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/test/java/com/niit/springcloudapigateway/SpringCloudApiGatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/bej/userauthenticationservice/UserAuthenticationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/niit/userauthenticationservice/UserAuthenticationServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/bej/userauthenticationservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/niit/userauthenticationservice/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/bej/userauthenticationservice/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/niit/userauthenticationservice/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/bej/userauthenticationservice/exception/InvalidCredentialsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/niit/userauthenticationservice/exception/InvalidCredentialsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/bej/userauthenticationservice/exception/UserAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/niit/userauthenticationservice/exception/UserAlreadyExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/bej/userauthenticationservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/niit/userauthenticationservice/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/bej/userauthenticationservice/security/JWTSecurityTokenGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/niit/userauthenticationservice/security/JWTSecurityTokenGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/bej/userauthenticationservice/security/SecurityTokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/niit/userauthenticationservice/security/SecurityTokenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/bej/userauthenticationservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/niit/userauthenticationservice/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/bej/userauthenticationservice/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthenticationService/src/main/java/com/niit/userauthenticationservice/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthenticationService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthenticationService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthenticationService/src/test/java/com/bej/userauthenticationservice/UserAuthenticationServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthenticationService/src/test/java/com/niit/userauthenticationservice/UserAuthenticationServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/src/main/java/com/bej/usermovieservice/UserMovieServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/src/main/java/com/bej/usermovieservice/controller/UserMovieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/src/main/java/com/bej/usermovieservice/domain/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/src/main/java/com/bej/usermovieservice/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/src/main/java/com/bej/usermovieservice/exception/MovieNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/src/main/java/com/bej/usermovieservice/exception/UserAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/src/main/java/com/bej/usermovieservice/exception/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/src/main/java/com/bej/usermovieservice/filter/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/src/main/java/com/bej/usermovieservice/repository/UserMovieRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/src/main/java/com/bej/usermovieservice/service/UserMovieService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/src/main/java/com/bej/usermovieservice/service/UserMovieServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMovieService/src/test/java/com/bej/usermovieservice/UserMovieServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Ia6jcZDjwPhjB8Bk5u1czC1pvO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Backend/C3_Building microservices and Dockerize the application/Sprint5/BEJ_C3_S4_Create_Microservices_Using_SpringBoot_Pc_1"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94d822d4-dfab-4e7a-bf2e-294c591db65a" name="Changes" comment="" />
+      <created>1670407490537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670407490537</updated>
+    </task>
+    <servers />
+  </component>
+</project>

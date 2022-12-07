@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     #Here mysqlservice is the container name given in docker-compose file
-    url: jdbc:mysql://mysqlservice:3306/registered_users?useSSL=false&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://mysqlService:3306/registered_users?useSSL=false&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
    # url: jdbc:mysql://localhost:3306/registered_users?useSSL=false&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
     username: root
     password: root

@@ -53,7 +53,7 @@
 
   <modules>
     <module>UserAuthenticationService</module>
-    <module>UserMovieService</module>
+    <module>shoppingApplication</module>
     <module>SpringCloudAPIGateway</module>
   </modules>
 <build>

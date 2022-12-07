@@ -1,12 +1,12 @@
 version: "3.9"
 services:
-  mysqlservice:
+  mysqlService:
     image: mysql:5.7
     ports:
-      - "3307:3307"
-    container_name: mysql-container
+      - "3306:3306"
+    container_name: mysqlService
     networks:
-      - springcloud-movie-net
+      - springcloud-shopping-net
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_USERNAME: user
@@ -14,9 +14,9 @@ services:
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
   mongodbservice:
     image: mongo:latest
-    container_name: mongo-container
+    container_name: mongodbservice
     networks:
-      - springcloud-movie-net
+      - springcloud-shopping-net
     ports:
       - "27017:27017"
 
@@ -24,19 +24,19 @@ services:
     container_name: user-authentication-service
     build: UserAuthenticationService/
     networks:
-      - springcloud-movie-net
+      - springcloud-shopping-net
     ports:
       - "8086:8086"
     depends_on:
-      - mysqlservice
+      - mysqlService
       - apigateway
     restart: always
 
-  usermovieservice:
-    container_name: user-movie-service
-    build: UserMovieService/
+  customerservice:
+    container_name: customer-service
+    build: shoppingApplication/
     networks:
-      - springcloud-movie-net
+      - springcloud-shopping-net
     ports:
       - "8081:8081"
     depends_on:
@@ -48,12 +48,12 @@ services:
      container_name: spring-cloud-api-gateway
      build: SpringCloudAPIGateway/
      networks:
-       - springcloud-movie-net
+       - springcloud-shopping-net
      ports:
-       - "9000:9000"
+       - "9001:9001"
 
 networks:
-    springcloud-movie-net:
+    springcloud-shopping-net:
         driver: bridge
 
 
